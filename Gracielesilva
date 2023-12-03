@@ -1,0 +1,382 @@
+segunda questão 
+
+//declaração de variáveis do tipo inteiro
+
+int a, b, soma;
+
+printf("Digite um numero inteiro: ");
+
+scanf("%d", &a); //recebe um inteiro e armazena na variável a
+
+printf("Digite um numero inteiro: ");
+
+scanf("%d", &b); //recebe um inteiro e armazena na variável b
+
+soma = a + b;
+
+//Efetua adição de a com b e armazena na variável soma
+
+printf("O valor da soma = %d\n", soma); //Mostra mensagem com o resultado
+
+system ("pause");
+
+return(0);
+
+}
+
+terceira questão
+
+```java
+import java.util.Scanner;
+
+public class OperacoesMatematicas {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Digite o primeiro número: ");
+        int num1 = scanner.nextInt();
+        
+        System.out.println("Digite o segundo número: ");
+        int num2 = scanner.nextInt();
+        
+        int soma = num1 + num2;
+        int subtracao = num1 - num2;
+        int multiplicacao = num1 * num2;
+        
+        System.out.println("Resultado da soma: " + soma);
+        System.out.println("Resultado da subtração: " + subtracao);
+        System.out.println("Resultado da multiplicação: " + multiplicacao);
+        
+        scanner.close();
+    }
+}
+```
+
+quarta questão 
+
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2, num3;
+    int soma, subtracao, multiplicacao;
+
+    printf("Digite o primeiro número: ");
+    scanf("%d", &num1);
+    
+    printf("Digite o segundo número: ");
+    scanf("%d", &num2);
+    
+    printf("Digite o terceiro número: ");
+    scanf("%d", &num3);
+
+quinta questão 
+
+
+#include <stdio.h>
+
+int main() {
+    // Declaração de variáveis
+    float num1, num2;
+
+    // Entrada de dados
+    printf("Digite o primeiro número real: ");
+    scanf("%f", &num1);
+
+    printf("Digite o segundo número real: ");
+    scanf("%f", &num2);
+
+    // Operações
+    float soma = num1 + num2;
+    float subtracao = num1 - num2;
+    float multiplicacao = num1 * num2;
+
+    // Verificação para evitar divisão por zero
+    float divisao = (num2 != 0) ? (num1 / num2) : 0;
+
+    // Saída
+    printf("Soma: %.2f\n", soma);
+    printf("Subtração: %.2f\n", subtracao);
+    printf("Multiplicação: %.2f\n", multiplicacao);
+    printf("Divisão: %.2f\n", divisao);
+
+    return 0;
+}
+}
+
+```
+sexta questao 
+
+[3/12 12:35 PM] Derik: #include <stdio.h>
+
+int main() {
+    // Declaração de variáveis
+    float num1, num2;
+
+    // Entrada de dados
+    printf("Digite o primeiro número real: ");
+    scanf("%f", &num1);
+
+    printf("Digite o segundo número real: ");
+    scanf("%f", &num2);
+
+    // Operações
+    float soma = num1 + num2;
+    float subtracao = num1 - num2;
+    float multiplicacao = num1 * num2;
+
+    // Verificação para evitar divisão por zero
+    float divisao = (num2 != 0) ? (num1 / num2) : 0;
+
+    // Saída
+    printf("Soma: %.2f\n", soma);
+    printf("Subtração: %.2f\n", subtracao);
+    printf("Multiplicação: %.2f\n", multiplicacao);
+    printf("Divisão: %.2f\n", divisao);
+
+    return 0;
+}
+[3/12 12:36 PM] +55 87 9902-8573: ```c
+#include <stdio.h>
+
+int main() {
+    float num1, num2;
+    float divisao;
+
+    printf("Digite o primeiro número: ");
+    scanf("%f", &num1);
+    
+    printf("Digite o segundo número: ");
+    scanf("%f", &num2);
+    
+    divisao = num1 / num2;
+
+    printf("Divisão: %.2f\n", divisao);
+
+    return 0;
+}
+```
+
+setima questao 
+
+```c
+#include <stdio.h>
+
+int main() {
+    float num1, num2, num3;
+    float soma, subtracao, multiplicacao, divisao;
+
+    printf("Digite o primeiro número: ");
+    scanf("%f", &num1);
+    
+    printf("Digite o segundo número: ");
+    scanf("%f", &num2);
+    
+    printf("Digite o terceiro número: ");
+    scanf("%f", &num3);
+
+    soma = num1 + num2 + num3;
+    subtracao = num1 - num2 - num3;
+    multiplicacao = num1 * num2 * num3;
+    divisao = num1 / num2 / num3;
+
+    printf("Soma: %.2f\n", soma);
+    printf("Subtração: %.2f\n", subtracao);
+    printf("Multiplicação: %.2f\n", multiplicacao);
+    printf("Divisão: %.2f\n", divisao);
+
+    return 0;
+}
+```
+
+oitava questao 
+
+
+import java.util.Scanner;
+
+public class CalculadoraCircunferencia {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Digite o raio da circunferência: ");
+        double raio = scanner.nextDouble();
+        
+        double area = Math.PI * Math.pow(raio, 2);
+        double comprimento = 2 * Math.PI * raio;
+        
+        System.out.println("A área da circunferência é: " + area);
+        System.out.println("O comprimento da circunferência é: " + comprimento);
+        
+        scanner.close();
+    }
+}
+
+
+nona quastao 
+
+
+```java
+import java.util.Scanner;
+
+public class CalculadoraCircunferencia {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Digite o raio da circunferência: ");
+        double raio = scanner.nextDouble();
+        
+        double area = Math.PI * Math.pow(raio, 2);
+        double comprimento = 2 * Math.PI * raio;
+        
+        System.out.println("A área da circunferência é: " + area);
+        System.out.println("O comprimento da circunferência é: " + comprimento);
+        
+        scanner.close();
+    }
+}
+```
+
+decima questao
+
+```java
+import java.util.Scanner;
+
+public class CalculadoraAreaTrapezio {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Digite o valor da base maior do trapézio: ");
+        double baseMaior = scanner.nextDouble();
+        
+        System.out.print("Digite o valor da altura do trapézio: ");
+        double altura = scanner.nextDouble();
+        
+        double area = ((baseMaior + baseMenor) * altura) / 2;
+        
+        System.out.println("Valores inseridos:");
+        System.out.println("Base Maior: " + baseMaior);
+        System.out.println("Altura: " + altura);
+        System.out.println("A área do trapézio é: " + area);
+    }
+}
+```
+
+questao 11
+
+```c
+#include <stdio.h>
+
+int main() {
+    float celsius, fahrenheit;
+
+    printf("Digite a temperatura em graus Celsius: ");
+    scanf("%f", &celsius);
+
+    fahrenheit = (celsius * 9/5) + 32;
+
+    printf("A temperatura em graus Fahrenheit é: %.2f\n", fahrenheit);
+
+    return 0;
+}
+}
+
+questao 12
+
+```c
+#include <stdio.h>
+
+int main() {
+    float fahrenheit, celsius;
+
+    printf("Digite a temperatura em graus Fahrenheit: ");
+    scanf("%f", &fahrenheit);
+
+    celsius = (5.0/9.0) * (fahrenheit - 32);
+
+    printf("A temperatura em graus Celsius é: %.2f\n", celsius);
+
+    return 0;
+}
+```
+
+questao 13
+
+```c
+#include <stdio.h>
+
+int main() {
+    int A, B, C;
+    int soma_quadrados;
+
+    printf("Digite o valor de A: ");
+    scanf("%d", &A);
+
+    printf("Digite o valor de B: ");
+    scanf("%d", &B);
+
+    printf("Digite o valor de C: ");
+    scanf("%d", &C);
+
+    soma_quadrados = (A * A) + (B * B) + (C * C);
+
+    printf("A soma dos quadrados é: %d\n", soma_quadrados);
+
+    return 0;
+}
+```
+
+questao 14 
+
+```c
+#include <stdio.h>
+
+int main() {
+    int A, B, C;
+    int soma;
+    int quadrado_soma;
+
+    printf("Digite o valor de A: ");
+    scanf("%d", &A);
+
+    printf("Digite o valor de B: ");
+    scanf("%d", &B);
+
+    printf("Digite o valor de C: ");
+    scanf("%d", &C);
+
+    soma = A + B + C;
+    quadrado_soma = soma * soma;
+
+    printf("O quadrado da soma é: %d\n", quadrado_soma);
+
+    return 0;
+}
+```
+
+questao 15
+
+```c
+#include <stdio.h>
+
+int main() {
+    float quilometros, litros;
+    float consumo;
+
+    printf("Digite a quantidade de quilômetros rodados: ");
+    scanf("%f", &quilometros);
+
+    printf("Digite a quantidade de litros de combustível: ");
+    scanf("%f", &litros);
+
+    consumo = quilometros / litros;
+
+    printf("O consumo do carro é: %.2f km/l\n", consumo);
+
+    return 0;
+}
+```
+
+
+
+
+
